@@ -8,7 +8,7 @@
 Add this in your build.gradle
 
 dependencies{
-   compile 'com.milaptank:stv:1.0.0'
+   implementation project(path: ':spannabletextview')
 }
 
 ## What can I do with SpannableTextView?

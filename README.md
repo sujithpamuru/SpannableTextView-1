@@ -76,6 +76,9 @@ Once you've created and displayed your SpannableTextView, you can modify the tex
       "value": " 6/10   "
 }
 ```
+### Contributing to SpannableTextView
+All pull requests are welcome.
+
 ### License
 ```
 MIT License
@@ -100,6 +103,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
-### Contributing to SpannableTextView
-All pull requests are welcome.

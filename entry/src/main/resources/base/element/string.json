@@ -1,0 +1,84 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "SpannableTextView"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "url_link",
+      "value": "http://milaptank.com"
+    },
+    {
+      "name": "stvAddress",
+      "value": "WebMob Technologies\n"
+    },
+    {
+      "name": "stvAddText",
+      "value": "1    floor,111, N Market St. #300,\nSan Jose, California ,\n95113, USA"
+    },
+    {
+      "name": "stSupSrpt",
+      "value": "  st"
+    },
+    {
+      "name": "stvMarksTop",
+      "value": " 9.5/10   "
+    },
+    {
+      "name": "stvMrksTxt",
+      "value": " excellent! "
+    },
+    {
+      "name": "stvMarksDown",
+      "value": " 3.5/10   "
+    },
+    {
+      "name": "stMrksDTxt",
+      "value": " horrible! "
+    },
+    {
+      "name": "stvFormula",
+      "value": "Area= \u03C0 r"
+    },
+    {
+      "name": "stFSupSrpt",
+      "value": "                2"
+    },
+    {
+      "name": "stvFormText",
+      "value": "                2"
+    },
+    {
+      "name": "stSubSrt",
+      "value": "Water= H  O"
+    },
+    {
+      "name": "stvOffer",
+      "value": "Price is \u20B9 "
+    },
+    {
+      "name": "stvOfferPrice",
+      "value": "1000"
+    },
+    {
+      "name": "Offer",
+      "value": " Offer Price is \u20B9 500"
+    },
+    {
+      "name": "stvImageSpan",
+      "value": "Show love by press  "
+    },
+    {
+      "name": "toastDialog",
+      "value": "Website Clicked"
+    }
+  ]
+}

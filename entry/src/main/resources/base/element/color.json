@@ -1,0 +1,20 @@
+{
+  "color": [
+    {
+      "name": "customized_neonblue",
+      "value": "#304ffe"
+    },
+    {
+      "name": "customized_darkblue",
+      "value": "#073680"
+    },
+    {
+      "name": "customized_lightblue",
+      "value": "#DFF1FE"
+    },
+    {
+      "name": "customized_burgundy",
+      "value": "#800736"
+    }
+  ]
+}

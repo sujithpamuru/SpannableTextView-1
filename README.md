@@ -6,6 +6,9 @@
  
 ###### SpannableTextView is a custom `TextView` which lets you customize the styling of SpannableStyles of your text or statment via `Spannables`, but without the hassle of having to deal directly with Spannable themselves.
 
+![Continuous, Discrete, Custom Java layout](Images/device.png)
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 ## Installation
 
 In order to use the library, add the following line to your **root** gradle file(entry/build.gradle):
@@ -20,12 +23,6 @@ dependencies{
 ​
 ## Usage
 
- ![Continuous, Discrete, Custom Java layout](Images/device.png)
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-Example
---------
 Generate the following style:
 
 ## Screenshot

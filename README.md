@@ -2,19 +2,23 @@
 
  ![Continuous, Discrete, Custom Java layout](Images/spannabletextview.png)
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+## Introduction
+ 
+###### SpannableTextView is a custom `TextView` which lets you customize the styling of SpannableStyles of your text or statment via `Spannables`, but without the hassle of having to deal directly with Spannable themselves.
 
-###### SpannableTextView is a custom `TextView` which lets you customize the styling of slice of your text or statment via `Spannables`, but without the hassle of having to deal directly with Spannable themselves.
+## Installation
 
-Add this in your build.gradle
+In order to use the library, add the following line to your **root** gradle file(entry/build.gradle):
 
+```groovy
 dependencies{
-   implementation project(path: ':spannabletextview')
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    implementation project(path: ':spannabletextview')
+    testImplementation 'junit:junit:4.13'
 }
-
-## What can I do with SpannableTextView?
-Examples of different styles.
-
-## Screenshot
+```
+​
+## Usage
 
  ![Continuous, Discrete, Custom Java layout](Images/device.png)
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -75,5 +79,30 @@ Once you've created and displayed your SpannableTextView, you can modify the tex
       "value": " 6/10   "
 }
 ```
+### License
+```
+MIT License
+
+Copyright (c) 2017 milap tank
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
 ### Contributing to SpannableTextView
 All pull requests are welcome.

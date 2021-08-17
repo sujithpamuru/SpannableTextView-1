@@ -8,6 +8,10 @@
 
 ![Continuous, Discrete, Custom Java layout](Images/device.png)
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+## Source
+ 
+###### The code in this repository was inspired from https://github.com/milaptank/SpannableTextView. We are very thankful to milaptank.
 
 ## Installation
 

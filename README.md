@@ -5,7 +5,7 @@
 
 ## Source
  
-###### The code in this repository was inspired from https://github.com/milaptank/SpannableTextView. We are very thankful to .
+###### The code in this repository was inspired from https://github.com/milaptank/SpannableTextView. We are very thankful to milaptank.
 
 ## Screenshot
 

@@ -1,17 +1,19 @@
- ## Screenshot
-
- ![Continuous, Discrete, Custom Java layout](Images/spannabletextview.png)
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
 ## Introduction
  
 ###### SpannableTextView is a custom `TextView` which lets you customize the styling of SpannableStyles of your text or statment via `Spannables`, but without the hassle of having to deal directly with Spannable themselves.
 
-![Continuous, Discrete, Custom Java layout](Images/device.png)
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- 
 ## Source
  
-###### The code in this repository was inspired from https://github.com/milaptank/SpannableTextView. We are very thankful to milaptank.
+###### The code in this repository was inspired from https://github.com/milaptank/SpannableTextView. We are very thankful to .
+
+## Screenshot
+
+ ![Continuous, Discrete, Custom Java layout](Images/spannabletextview.png)
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+ ![Continuous, Discrete, Custom Java layout](Images/device.png)
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Installation
 
@@ -80,8 +82,9 @@ Once you've created and displayed your SpannableTextView, you can modify the tex
       "value": " 6/10   "
 }
 ```
-### Contributing to SpannableTextView
-All pull requests are welcome.
+## Support & extension
+
+Currently there is a limitation to set subscript,superscript,backgroundColor and ImageResource. So subscript,superscript,backgroundColor and ImageResource cannot be set from sample app to Spans.
 
 ### License
 ```

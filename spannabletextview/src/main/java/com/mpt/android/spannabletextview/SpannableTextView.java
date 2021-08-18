@@ -12,10 +12,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ *
  * @author Milap Tank
- *         Email milaptank@gmail.com.
- *         Project SpannableTextView - Android.
- *         desc SpannableTextView.java  is for extra power to #TextView.
+ *         Email milaptank@gmail.com
+ *         Project SpannableTextView - Android
+ *         desc SpannableTextView.java  is for extra power to #TextView
  * @since 23/11/17  3:48 PM
  */
 

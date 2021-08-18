@@ -5,7 +5,7 @@
 
 ## Source
  
-###### The code in this repository was inspired from https://github.com/milaptank/SpannableTextView. We are very thankful to milaptank.
+###### The code in this repository was inspired from [milaptank/SpannableTextView - v1.0.0](https://github.com/milaptank/SpannableTextView). We are very thankful to milaptank.
 
 ## Screenshot
 
@@ -38,8 +38,9 @@ Generate the following style:
 
 With the code below:
 
-```java
-stvMarksDown.addSlice(new SpannableStyles.Builder(this.getResourceManager()
+```
+    Java
+    stvMarksDown.addSlice(new SpannableStyles.Builder(this.getResourceManager()
                     .getElement(ResourceTable.String_stvMarksDown).getString())
                     .backgroundColor(RgbPalette.parse(this.getResourceManager()
                     .getElement(ResourceTable.Color_customized_burgundy).getString()))
@@ -76,11 +77,12 @@ Once you've created and displayed your SpannableTextView, you can modify the tex
 `SpannableStyles` individually. For example, if we want to change the `3.5/10` from the above example into
 `6/10`, we could do the following:
 
-```java
-{
+```
+    java
+    {
       "name": "stvMarksDown",
       "value": " 6/10   "
-}
+    }
 ```
 ## Support & extension
 

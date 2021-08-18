@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * {@inheritDoc}
  * @author Milap Tank
  *         Email milaptank@gmail.com
  *         Project SpannableTextView - Android

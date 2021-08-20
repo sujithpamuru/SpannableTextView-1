@@ -44,7 +44,6 @@ public class MainAbilitySlice extends AbilitySlice implements OnTextClick {
     /**
      * To know whether the URL was clicked or not.
      */
-
     private boolean isUrlClicked;
 
     /**

@@ -5,7 +5,6 @@ import ohos.agp.components.Component;
 /**
  * Listener for onClick.
  */
-
 public interface OnTextClick {
     /**
      * To perform onClick action.
@@ -14,6 +13,5 @@ public interface OnTextClick {
      *
      * @param slice slice
      */
-
     void onTextClick(Component component, SpannableStyles slice);
 }

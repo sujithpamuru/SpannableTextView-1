@@ -18,27 +18,26 @@ import java.util.List;
  *         desc SpannableTextView.java  is for extra power to #TextView
  * {@since 23/11/17  3:48 PM}
  */
-
 public class SpannableTextView extends Text {
     /**
      * To store the data of slice.
      */
-
     private List<SpannableStyles> sliceList;
 
     private void init() {
         sliceList = new ArrayList<>();
     }
+
     /**
      * To specify the context of an object in SpannableTextView.
      *
      * @param context context
      */
-
     public SpannableTextView(Context context) {
         super(context);
         init();
     }
+
     /**
      * To specify the context and attributeset  of an object in SpannableTextView.
      *
@@ -46,11 +45,11 @@ public class SpannableTextView extends Text {
      *
      * @param attrSet attrSet
      */
-
     public SpannableTextView(Context context, AttrSet attrSet) {
         super(context, attrSet);
         init();
     }
+
     /**
      * To define the context ,attributeset and style.
      *
@@ -60,7 +59,6 @@ public class SpannableTextView extends Text {
      *
      * @param defStyleAttr defStyleAttr
      */
-
     public SpannableTextView(Context context, AttrSet attrSet, int defStyleAttr) {
         super(context, attrSet, String.valueOf(defStyleAttr));
         init();
@@ -95,7 +93,6 @@ public class SpannableTextView extends Text {
      *
      * @param newSlice newSlice
      */
-
     public void replaceSliceAt(int location, SpannableStyles newSlice) {
         sliceList.set(location, newSlice);
     }
@@ -105,7 +102,6 @@ public class SpannableTextView extends Text {
      *
      * @param location location
      */
-
     public void removeSlice(int location) {
         sliceList.remove(location);
     }
@@ -115,7 +111,6 @@ public class SpannableTextView extends Text {
      *
      * @param location location
      */
-
     public SpannableStyles getSlice(int location) {
         if (location >= 0 && location < sliceList.size()) {
             return sliceList.get(location);
@@ -126,7 +121,6 @@ public class SpannableTextView extends Text {
     /**
      * Call this method when you're done adding {@link SpannableStyles}s.
      */
-
     public void display() {
         // generate the final string based on the pieces.
         final RichTextBuilder richTextBuilder =  new RichTextBuilder();

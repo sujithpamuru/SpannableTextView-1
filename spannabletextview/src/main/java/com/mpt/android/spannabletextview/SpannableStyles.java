@@ -6,101 +6,97 @@ import ohos.agp.utils.Color;
 /**
  * For different Spans.
  */
-
 public class SpannableStyles {
+
     /**
      * To Specify the text.
      */
-
     private String text;
+
     /**
      * To Specify the textColor.
      */
-
     private int textColor;
+
     /**
      * To Specify the textSize.
      */
-
     private final int textSize;
+
     /**
      * To Specify the backgroundColor.
      */
-
     private final int backgroundColor;
+
     /**
      * To Specify the textSizeRelative.
      */
-
     private final float textSizeRelative;
+
     /**
      * To Specify the style.
      */
-
     private final int style;
+
     /**
      * To Specify the underline.
      */
-
     private final boolean underline;
+
     /**
      * To Specify the superscript.
      */
-
     private final boolean superscript;
+
     /**
      * To Specify the strike.
      */
-
     private final boolean strike;
+
     /**
      * To Specify the subscript.
      */
-
     private final boolean subscript;
+
     /**
      * To Specify the sliceId.
      */
-
     private final int sliceId;
+
     /**
      * To Specify the imageResource.
      */
-
     private final int imageResource;
+
     /**
      * OnTextClick Listener.
      */
-
     private final OnTextClick onTextClick;
+
     /**
      * To Specicy the shape.
      */
-
     private final boolean isRounded;
+
     /**
      * To Specify the cornerRadius.
      */
-
     private int cornerRadius;
 
     /**
      * To specify the default Absolute text size.
      */
-
     public static final int DEFAULT_ABSOLUTE_TEXT_SIZE = 0;
 
     /**
      * To specify the default Relative text size.
      */
-
     public static final float DEFAULT_RELATIVE_TEXT_SIZE = 1;
     /**
      * To specify the text properties for spans.
      *
      * @param builder builder
      */
-
     public SpannableStyles(Builder builder) {
         this.text = builder.text;
         this.textSize = builder.textSize;
@@ -118,10 +114,10 @@ public class SpannableStyles {
         this.isRounded = builder.isRounded;
         this.cornerRadius = builder.cornerRadius;
     }
+
     /**
      * To applay the rounded background shapes.
      */
-
     public boolean isRounded() {
         return isRounded;
     }
@@ -129,7 +125,6 @@ public class SpannableStyles {
     /**
      * To get the backGround corner radius for text.
      */
-
     public int getCornerRadius() {
         return cornerRadius;
     }
@@ -137,82 +132,80 @@ public class SpannableStyles {
     /**
      * Builder for different Spans.
      */
-
     public static class Builder {
         /**
          * To Specify the text.
          */
-
         private final String text;
+
         /**
          * To Specify the imageResource.
          */
-
         private int imageResource;
+
         /**
          * To specify the default Absolute text size.
          */
-
         private int textSize = DEFAULT_ABSOLUTE_TEXT_SIZE;
+
         /**
          * To Specify the textColor.
          */
-
         private int textColor = Color.BLACK.getValue();
+
         /**
          * To Specify the backgroundColor.
          */
-
         private int backgroundColor = -1;
+
         /**
          * To specify the default Relative text size.
          */
-
         private float textSizeRelative = DEFAULT_RELATIVE_TEXT_SIZE;
+
         /**
          * To specify the style.
          */
-
         private int style = Font.REGULAR;
+
         /**
          * To specify the underline.
          */
-
         private boolean underline = false;
+
         /**
          * To specify the strike.
          */
-
         private boolean strike = false;
+
         /**
          * To specify the superScript.
          */
-
         private boolean superscript = false;
+
         /**
          * To specify the subScript.
          */
-
         private boolean subscript = false;
+
         /**
          * onClickListener.
          */
-
         private OnTextClick onTextClick;
+
         /**
          * To specify the sliceID.
          */
-
         private int sliceId;
+
         /**
          * To specify the shape.
          */
-
         private boolean isRounded;
+
         /**
          * To specify the cornerRadius.
          */
-
         private int cornerRadius;
 
         /**
@@ -220,7 +213,6 @@ public class SpannableStyles {
          *
          * @param text the text of this Piece.
          */
-
         public Builder(String text) {
             this.text = text;
         }
@@ -241,7 +233,6 @@ public class SpannableStyles {
          *
          * @param cornerRadius cornerRadius
          */
-
         public Builder setCornerRadius(int cornerRadius) {
             this.isRounded = true;
             this.cornerRadius = cornerRadius;
@@ -376,13 +367,11 @@ public class SpannableStyles {
         }
     }
 
-
     /**
      * Sets the text color of this Piece.
      *
      * @param textColor textColor
      */
-
     public void setTextColor(int textColor) {
         this.textColor = textColor;
     }
@@ -392,11 +381,9 @@ public class SpannableStyles {
      *
      * @param text text
      */
-
     public void setText(String text) {
         this.text = text;
     }
-
 
     public String getText() {
         return text;

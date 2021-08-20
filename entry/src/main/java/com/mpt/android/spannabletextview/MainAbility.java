@@ -23,7 +23,6 @@ import com.mpt.android.spannabletextview.slice.MainAbilitySlice;
 /**
  * Default MainAbility class to launch the Application.
  */
-
 public class MainAbility extends Ability {
     @Override
     public void onStart(Intent intent) {

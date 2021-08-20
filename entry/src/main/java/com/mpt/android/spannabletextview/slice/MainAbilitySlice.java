@@ -40,32 +40,31 @@ import java.io.IOException;
 /**
  * To display all Spans.
  */
-
 public class MainAbilitySlice extends AbilitySlice implements OnTextClick {
     /**
      * To know whether the URL was clicked or not.
      */
 
     private boolean isUrlClicked;
+
     /**
      * To show the Offer Price.
      */
-
     private SpannableTextView stvOfferReplace;
+
     /**
      * To show the Offer details.
      */
-
     private SpannableTextView stvOfferText;
+
     /**
      * Provides the context of an object.
      */
-
     private Context mcontext;
+
     /**
      * To display the logs.
      */
-
     private static final HiLogLabel LABEL = new HiLogLabel(HiLog.DEBUG, 0x00201, "TSBV");
 
     @Override
@@ -190,7 +189,6 @@ public class MainAbilitySlice extends AbilitySlice implements OnTextClick {
     /**
      * To perform click action on URL.
      */
-
     private final Component.ClickedListener clickedListener = (Component component) -> {
         try {
             if (isUrlClicked) {

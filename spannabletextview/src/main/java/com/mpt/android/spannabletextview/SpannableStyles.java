@@ -92,6 +92,7 @@ public class SpannableStyles {
      * To specify the default Relative text size.
      */
     public static final float DEFAULT_RELATIVE_TEXT_SIZE = 1;
+
     /**
      * To specify the text properties for spans.
      *

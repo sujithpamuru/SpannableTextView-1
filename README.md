@@ -20,12 +20,30 @@
 
 ## Installation
 
-In order to use the library, add the following line to your **root** gradle file(entry/build.gradle):
+In order to use the following library, add the following line to your **root** gradle file:
 
-```groovy
+1.For using SpannableTextView module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/support.har.
+
+```
 dependencies{
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
     implementation project(path: ':spannabletextview')
+    testImplementation 'junit:junit:4.13'
+}
+```
+2.For using SpannableTextView in separate application using har file, add the har file in the entry/libs folder and add the dependencies in entry/build.gradle file.
+
+```
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.har'])
+    testCompile 'junit:junit:4.12'
+}
+```
+3.For using SpannableTextView from a remote repository in separate application, add the below dependencies in entry/build.gradle file.
+
+```
+dependencies {
+    implementation 'dev.applibgroup:spannabletextview:1.0.0'
     testImplementation 'junit:junit:4.13'
 }
 ```
